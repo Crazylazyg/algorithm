@@ -20,7 +20,7 @@ def fastMaxVal (w, v, l, i, aw, al, m):
     try: return m[(i, aw)]
     except KeyError:
         if i == 0:
-            if w[i] <= aw and l[i] <=al:
+            if w[i] <= aw and l[i] <= al:
                 m[(i, aw)] = v[i]
                 return v[i]
             else:
