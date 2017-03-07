@@ -1,0 +1,11 @@
+def is_palindrome(x):
+    if len(x) <= 1:
+        return True
+    else:
+        return x[0] == x[-1] and is_palindrome(x[1:-1])
+
+guess = raw_input('Enter an string : ')
+if is_palindrome(guess):
+    print("It's a palindrome!")
+else:
+    print("Not a palindrome ~")
