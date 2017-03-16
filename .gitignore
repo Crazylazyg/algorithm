@@ -2,3 +2,5 @@
 *.xml
 
 *.iml
+
+.idea/workspace.xml
